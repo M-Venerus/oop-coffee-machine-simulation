@@ -9,6 +9,7 @@ menu = Menu()
 coffeemaker = CoffeeMaker()
 moneymachine = MoneyMachine()
     
+    
 def drink_choice():
     """Prompt user for drink selection. Secret value 'report' generates resource levels."""
     user_drink = input(f"What beverage would you like? ({menu.get_items()}): ")
@@ -40,7 +41,6 @@ def main():
     """Execute coffee machine simulation."""
     drink = drink_choice()
     if drink == "reset":
-        print("\n")
         main()
     else:
         check_resources(drink)
