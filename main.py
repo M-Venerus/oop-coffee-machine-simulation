@@ -34,7 +34,6 @@ def drink_price(drink):
     cost_formatted = "{:.2f}".format(cost)
     print(f"A {drink.name} costs $ {cost_formatted}")
     return cost
-
         
 
 def main():
