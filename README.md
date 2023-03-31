@@ -2,7 +2,7 @@
 OOP version of my coffee maker. Original found at https://github.com/M-Venerus/coffee-machine-simulation.
 
 ### About
-For this project I used a combination of functional and object-oriented programming. The original version was built using a full FP paradigm, so I created this version to test my skills. With OOP however, the coffe machine actually has greater time and space complexity as its use case is not appropriate, and is better served with FP in the original.
+For this project I used a combination of functional and object-oriented programming. The original version was built using a full FP paradigm, so I created this version to test my skills. With OOP however, the coffee machine actually has greater time and space complexity as its use case is not appropriate, and is better served with FP in the original.
 
 
 ## Instructions: Simulated Coffee Machine
